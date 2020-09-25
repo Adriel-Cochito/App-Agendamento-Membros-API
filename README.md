@@ -7,17 +7,17 @@ API de membros/cliente para o App Agendamentos
 
 # Atributos Detalhe
 
-Detalhe {
-email	string
-id	integer($int32)
-telefone	integer($int64)
+- Detalhe {
+- email	string
+- id	integer($int32)
+- telefone	integer($int64)
 }
 
 # Atributos Membro
 
-Membro {
-detalhe	Detalhe
-id	integer($int32)
-nome	string
-sobrenome	string
+- Membro {
+- detalhe	Detalhe
+- id	integer($int32)
+- nome	string
+- sobrenome	string
 }
